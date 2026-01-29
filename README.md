@@ -44,12 +44,19 @@ The complete model development and analysis are documented in the included Jupyt
 ## 📂 Repository Structure
 
 medical-insurance-cost-prediction/
+
 │
+
 ├── app.py # Streamlit application
+
 ├── requirements.txt # Python dependencies
+
 ├── runtime.txt # Python version for Streamlit Cloud
+
 ├── medical_insurance_pipeline.pkl # Trained ML pipeline
+
 ├── medical_insurance_cost_prediction.ipynb # Model training notebook
+
 └── README.md # Project documentation
 
 
@@ -58,7 +65,7 @@ medical-insurance-cost-prediction/
 ## 🚀 Getting Started (Local Setup)
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/Rabindrajena/medical-insurance-cost-prediction.git
 cd medical-insurance-cost-prediction
 
@@ -84,7 +91,7 @@ streamlit run app.py
 The app will open in your browser at:
 http://localhost:8501
 
-##📝 How to Use the App
+## 📝 How to Use the App
 
 **1.** Open the Streamlit interface
 
