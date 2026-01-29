@@ -1,10 +1,11 @@
-# Medical Insurance Cost Prediction
+<img width="1147" height="813" alt="Screenshot 2026-01-29 223650" src="https://github.com/user-attachments/assets/aa91a0bf-9c1d-4057-8c4d-7487eab848d7" /># Medical Insurance Cost Prediction
 
 **Medical Insurance Cost Prediction** is a Streamlit web application that estimates the **annual medical insurance cost** of an individual based on input features such as age, BMI, smoking status, number of children, and region.  
 This project demonstrates the use of **machine learning** combined with an **interactive web interface**.
 
 ---
-https://github.com/Rabindrajena/medical-insurance-cost-prediction/blob/ed881a8572fd33af48319434c12d74147035d349/Screen%20Recording%202026-01-29%20214313.mp4
+
+![Uploading Screenshot 2026-01-29 223650.png…](
 
 ## 🌐 Live Demo
 
