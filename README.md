@@ -4,6 +4,7 @@
 This project demonstrates the use of **machine learning** combined with an **interactive web interface**.
 
 ---
+https://github.com/Rabindrajena/medical-insurance-cost-prediction/blob/ed881a8572fd33af48319434c12d74147035d349/Screen%20Recording%202026-01-29%20214313.mp4
 
 ## 🌐 Live Demo
 
@@ -47,18 +48,21 @@ medical-insurance-cost-prediction/
 
 │
 
+├── medical_insurance_cost_prediction.ipynb # Created using colab
+
+├── README.md # Project documentation
+
 ├── app.py # Streamlit application
 
-├── requirements.txt # Python dependencies
-
-├── runtime.txt # Python version for Streamlit Cloud
-
-├── medical_insurance_pipeline.pkl # Trained ML pipeline
+├── medical.csv # CSV file
 
 ├── medical_insurance_cost_prediction.ipynb # Model training notebook
 
-└── README.md # Project documentation
+├── medical_insurance_pipeline.pkl # Trained ML pipeline
 
+├── requirements.txt # Python dependencies
+
+└── runtime.txt # Python version for Streamlit Cloud
 
 ---
 
