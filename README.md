@@ -7,6 +7,10 @@ This project demonstrates the use of **machine learning** combined with an **int
 
 <img width="1147" height="813" alt="Screenshot 2026-01-29 223650" src="https://github.com/user-attachments/assets/8acb7b60-2eaf-4931-a790-0b214a3e4d72" />
 
+## Detailed Analysis
+A complete exploratory data analysis, feature engineering, model training,
+and evaluation is documented in the notebook: 📔[Colab Notebook - Full ML Blog](https://colab.research.google.com/github/Rabindrajena/medical-insurance-cost-prediction/blob/main/Medical_Insurance_Cost_Prediction.ipynb)
+
 ## 🌐 Live Demo
 
 👉 **Try the app here:**  
