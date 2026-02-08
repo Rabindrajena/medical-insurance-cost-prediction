@@ -5,16 +5,28 @@ This project demonstrates the use of **machine learning** combined with an **int
 
 ---
 
-<img width="1147" height="813" alt="Screenshot 2026-01-29 223650" src="https://github.com/user-attachments/assets/8acb7b60-2eaf-4931-a790-0b214a3e4d72" />
 
 ## Detailed Analysis
 A complete exploratory data analysis, feature engineering, model training,
 and evaluation is documented in the notebook: 📔[Colab Notebook - Full ML Blog](https://colab.research.google.com/github/Rabindrajena/medical-insurance-cost-prediction/blob/main/Medical_Insurance_Cost_Prediction.ipynb)
 
+---
+
 ## 🌐 Live Demo
 
-👉 **Try the app here:**  
-https://medical-insurance-cost-prediction-cjf4uptd44r6c93bjahsen.streamlit.app/
+👉 **Try the app here:**   https://medical-insurance-cost-prediction-cjf4uptd44r6c93bjahsen.streamlit.app/
+
+---
+
+## 📷Screenshot
+
+<img width="1147" height="813" alt="Screenshot 2026-01-29 223650" src="https://github.com/user-attachments/assets/8acb7b60-2eaf-4931-a790-0b214a3e4d72" />
+
+---
+
+## 🎥Live demo
+
+![ScreenRecording2026-02-09014526-ezgif com-optimize](https://github.com/user-attachments/assets/4ba6ba2b-d2b0-46b5-b7b3-f6023ef31139)
 
 ---
 
@@ -49,25 +61,25 @@ The complete model development and analysis are documented in the included Jupyt
 
 ## 📂 Repository Structure
 
-medical-insurance-cost-prediction/
+`medical-insurance-cost-prediction/`
 
 │
 
-├── medical_insurance_cost_prediction.ipynb # Created using colab
+├── `medical_insurance_cost_prediction.ipynb` # Created using colab
 
-├── README.md # Project documentation
+├── `README.md` # Project documentation
 
-├── app.py # Streamlit application
+├── `app.py` # Streamlit application
 
-├── medical.csv # CSV file
+├── `medical.csv` # CSV file
 
-├── medical_insurance_cost_prediction.ipynb # Model training notebook
+├── `medical_insurance_cost_prediction.ipynb` # Model training notebook
 
-├── medical_insurance_pipeline.pkl # Trained ML pipeline
+├── `medical_insurance_pipeline.pkl` # Trained ML pipeline
 
-├── requirements.txt # Python dependencies
+├── `requirements.txt` # Python dependencies
 
-└── runtime.txt # Python version for Streamlit Cloud
+└── `runtime.txt` # Python version for Streamlit Cloud
 
 ---
 
@@ -75,30 +87,46 @@ medical-insurance-cost-prediction/
 
 ### 1️⃣ Clone the repository
 
+```bash
 git clone https://github.com/Rabindrajena/medical-insurance-cost-prediction.git
 cd medical-insurance-cost-prediction
+```
 
 ### 2️⃣ Create a virtual environment (recommended)
+
+```bash
 python -m venv venv
+```
 
 ### 3️⃣ Activate the virtual environment
 
 **Windows**
 
+```bash
 venv\Scripts\activate
+```
 
 **macOS / Linux**
 
+```bash
 source venv/bin/activate
+```
 
 ### 4️⃣ Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 ### 5️⃣ Run the Streamlit app
-streamlit run app.py
 
-The app will open in your browser at:
-http://localhost:8501
+```bash
+streamlit run app.py
+```
+
+The app will open in your browser at: http://localhost:8501
+
+---
 
 ## 📝 How to Use the App
 
@@ -114,14 +142,20 @@ http://localhost:8501
 
 If you want to retrain the model, use the Jupyter notebook provided in the repository.
 
-⚠️ Make sure the **scikit-learn version used for training matches** the version in requirements.txt to avoid compatibility issues.
+⚠️ Make sure the **scikit-learn version used for training matches** the version in `requirements.txt` to avoid compatibility issues.
 
 ### Save the model
+
+```bash
 import joblib
 joblib.dump(pipeline, "medical_insurance_pipeline.pkl")
+```
 
 ### Load the model in the app
+
+```bash
 model = joblib.load("medical_insurance_pipeline.pkl")
+```
 
 ## ☁️ Deployment (Streamlit Cloud)
 
@@ -131,9 +165,9 @@ model = joblib.load("medical_insurance_pipeline.pkl")
 
 **3.** Create a new app and connect your repository
 
-**4.** Ensure runtime.txt contains:
+**4.** Ensure `runtime.txt` contains:
 
-python-3.11
+`python-3.11`
 **5.** Deploy and share your app
 
 ## 📌 Notes
@@ -142,6 +176,5 @@ python-3.11
 * Dependency versions are pinned for Streamlit Cloud compatibility
 
 ## 👨‍💻 Author
-**Rabindra Jena**
-GitHub: https://github.com/Rabindrajena
+**Rabindra Jena** [GitHub](https://github.com/Rabindrajena)
 
