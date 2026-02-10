@@ -8,6 +8,7 @@ This project demonstrates the use of **machine learning** combined with an **int
 
 ## Detailed Analysis
 A complete exploratory data analysis, feature engineering, model training,
+
 and evaluation is documented in the notebook: 📔[Colab Notebook - Full ML Blog](https://colab.research.google.com/github/Rabindrajena/medical-insurance-cost-prediction/blob/main/Medical_Insurance_Cost_Prediction.ipynb)
 
 ---
@@ -24,7 +25,7 @@ and evaluation is documented in the notebook: 📔[Colab Notebook - Full ML Blog
 
 ---
 
-## 🎥Live demo
+## 🎥Demo video
 
 ![ScreenRecording2026-02-09014526-ezgif com-optimize](https://github.com/user-attachments/assets/4ba6ba2b-d2b0-46b5-b7b3-f6023ef31139)
 
@@ -138,7 +139,7 @@ The app will open in your browser at: http://localhost:8501
 
 **4.** View the estimated medical insurance cost
 
-## 📈 Model Training (Optional)
+## 📈 Model Training
 
 If you want to retrain the model, use the Jupyter notebook provided in the repository.
 
@@ -165,9 +166,8 @@ model = joblib.load("medical_insurance_pipeline.pkl")
 
 **3.** Create a new app and connect your repository
 
-**4.** Ensure `runtime.txt` contains:
+**4.** Ensure `runtime.txt` contains: `python-3.11`
 
-`python-3.11`
 **5.** Deploy and share your app
 
 ## 📌 Notes
